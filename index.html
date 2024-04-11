@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knight Owl Media</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        text-align: center;
+        max-width: 70%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+      }
+      .fixed-width-image {
+        height: auto;
+      }
+      .text-overlay {
+        font-family: "Poppins", sans-serif;
+        font-weight: bolder;
+        font-size: 70px;
+        position: absolute;
+        line-height: 1;
+        top: 120px;
+        left: 10px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      .content-container {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 20px;
+      }
+      .small-image {
+        position: absolute;
+        top: 10px;
+      }
+      .small-image-left {
+        top: 30px;
+        left: 100px;
+      }
+      .small-image-right {
+        top: 30px;
+        right: -350px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .left-section {
+        flex: 1;
+        padding-right: 20px;
+      }
+      .right-section {
+        flex: 1;
+        padding-left: 20px;
+      }
+      .our-story {
+        margin-top: 50px;
+        color: red;
+        font-weight: bold;
+        line-height: 1;
+        font-size: 80px;
+      }
+
+      .read-more {
+        max-width: 100px;
+        height: auto;
+      }
+
+      .custom-flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+      }
+      .custom-left {
+        flex: 1;
+        padding: 40px;
+      }
+      .custom-right {
+        flex: 3;
+        padding-left: 20px;
+      }
+      .custom-header {
+        color: #390099;
+        font-family: "Poppins", sans-serif;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+      .custom-button {
+        max-width: 100px;
+        height: auto;
+      }
+      .custom-image-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .custom-image-container img {
+        max-width: 30%;
+        height: auto;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          min-width: 100%;
+        }
+        .text-overlay {
+          font-size: 40px;
+        }
+        .small-image-right {
+          top: 30px;
+          right: 10px;
+        }
+
+        .flex-container {
+          flex-direction: column;
+        }
+
+        .left-section,
+        .right-section {
+          padding: 20px;
+        }
+
+        .custom-flex {
+          flex-direction: column;
+        }
+
+        .custom-left,
+        .custom-right {
+          padding: 20px;
+        }
+
+        .custom-image-container img {
+          max-width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--Main hero section top-->
+    <div class="container Hero mb-5">
+      <img
+        src="/img/8.png"
+        class="small-image small-image-left"
+        alt="Small Image Left"
+      />
+      <img
+        src="img/hamburger.png"
+        class="small-image small-image-right"
+        alt="Small Image Right"
+      />
+      <div class="content-container container-fluid">
+        <div class="text-overlay">
+          WE UNITE<br />
+          FRESH IDEAS<br />
+          <span style="opacity: 0.4; font-size: 50px; line-height: 0"
+            >STORIES<br />TALENTS</span
+          >
+        </div>
+      </div>
+      <img src="/img/1.jpg" class="fixed-width-image" alt="Your Image" />
+    </div>
+
+    <!--Our story-->
+    <div class="flex-container" style="justify-content: center">
+      <div class="left-section" style="text-align: center">
+        <h2 class="our-story">OUR<br />STORY</h2>
+        <img src="img/17.png" class="img-fluid" alt="Image" />
+      </div>
+      <div
+        style="border-left: 2px solid red; height: 400px; margin-left: -200px"
+      ></div>
+      <div class="right-section">
+        <div class="mb-4">
+          <h3
+            style="
+              font-family: 'Poppins';
+              font-size: 20px;
+              color: #390099;
+              font-weight: bold;
+            "
+          >
+            KNIGHT OWL MEDIA
+          </h3>
+          <p style="font-family: 'Poppins'; font-weight: 500">
+            KnightOwl Media unites fresh ideas, talent and stories to bring out
+            result driven solutions! We are a result-driven influencer marketing
+            and talent management organization that elevates businesses to scale
+            up their brand through bold strategic marketing and brand
+            initiatives We develop powerful campaigns and bring ideas to life
+            and work with several leading industry giants in the gaming,
+            entertainment and lifestyle space!
+          </p>
+        </div>
+        <div class="mb-4">
+          <h3
+            style="
+              font-family: 'Poppins';
+              font-size: 20px;
+              color: #390099;
+              font-weight: bold;
+            "
+          >
+            MISSION & VISION
+          </h3>
+          <p style="font-family: 'Poppins'; font-weight: 500">
+            We develop powerful campaigns and bring ideas to life and work with
+            several leading industry giants in the gaming, entertainment and
+            lifestyle space!
+          </p>
+        </div>
+        <div>
+          <button
+            style="width: 40%; height: 30%; color: transparent; border: none"
+          >
+            <img
+              src="img/Screenshot_2024-04-11_111345-removebg-preview.png"
+              class=""
+              alt="Read More Button"
+              style="width: 100%"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--yellow section-->
+
+    <div style="display: flex; align-items: center; background-color: #f4b504">
+      <div style="flex: 1; padding: 80px">
+        <h1
+          style="
+            color: #ec1c24;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            font-size: 50px;
+          "
+        >
+          LET'S TAKE
+        </h1>
+        <h1
+          style="
+            color: #ec1c24;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            font-size: 50px;
+          "
+        >
+          YOUR BRAND
+        </h1>
+        <h1
+          style="
+            color: #ec1c24;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            font-size: 50px;
+          "
+        >
+          ON A JOY RIDE
+        </h1>
+        <h1
+          style="
+            color: #ec1c24;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            font-size: 50px;
+          "
+        >
+          WITH US!
+        </h1>
+      </div>
+      <div style="flex: 1; text-align: center">
+        <img
+          src="img/13.png"
+          alt="Image"
+          style="max-width: 100%; height: auto"
+        />
+      </div>
+    </div>
+
+    <!--Our creators Cards-->
+    <div class="custom-flex">
+      <div class="custom-left">
+        <h2 class="custom-header">OUR<br />CREATORS</h2>
+        <p style="font-family: 'Poppins'; font-weight: 500">
+          We’re passionate about providing our clients with incredible service
+          and exceptional results, driven by experienced talent agents and
+          social media experts – entirely focused on your success.
+        </p>
+        <img src="button-image.jpg" class="custom-button" alt="Button Image" />
+      </div>
+      <div class="custom-right" style="flex">
+        <div class="custom-image-container">
+          <img src="img/14.png" class="img-fluid" alt="Image 1" />
+          <img src="img/15.png" class="img-fluid" alt="Image 2" />
+          <img src="img/16.png" class="img-fluid" alt="Image 3" />
+        </div>
+      </div>
+    </div>
+
+    <!--blue section hero BB KI VINES-->
+    <div
+      class="container-fluid"
+      style="background-color: #390099; padding-left: 20px; margin-top: 20px"
+    >
+      >
+      <h2 style="color: white; font-family: 'Poppins'; font-weight: bolder">
+        KO <span style="color: #ffbd03">IN MEDIA</span>
+      </h2>
+      <div class="row">
+        <div class="col-sm-3" style="padding: 20px">
+          <div
+            style="background-color: white; height: 200px; border-radius: 10px"
+          ></div>
+          <h3 style="color: white">KO x BB KI VINES</h3>
+          <p style="color: white">
+            We help brands maximize reach and engagement with campaigns
+          </p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+        <div class="col-sm-3" style="padding: 20px">
+          <div
+            style="background-color: white; height: 200px; border-radius: 10px"
+          ></div>
+          <h3 style="color: white">KO IS HERE</h3>
+          <p style="color: white">
+            This dynamic approach to communication is excellent
+          </p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <!--bCompany Partners-->
+    <div style="display: flex; align-items: center">
+      <div style="flex: 1; text-align: center">
+        <h2
+          style="
+            color: #390099;
+            font-family: 'Poppins';
+            font-size: 50px;
+            font-weight: bolder;
+          "
+        >
+          <div style="text-align: end; width: 65%">OUR</div>
+          <div>CLIENTS</div>
+        </h2>
+      </div>
+      <div
+        style="border-left: 2px solid red; height: 200px; margin: 0 20px"
+      ></div>
+      <div
+        style="
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+        "
+      >
+        <div
+          style="
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+          "
+        >
+          <img
+            src="img/logo1.png"
+            alt="Logo 1"
+            style="max-width: 20%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo2.png"
+            alt="Logo 2"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo3.png"
+            alt="Logo 3"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo4.png"
+            alt="Logo 4"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo5.png"
+            alt="Logo 5"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+        </div>
+        <div
+          style="
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+        >
+          <img
+            src="img/logo6.png"
+            alt="Logo 6"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo7.png"
+            alt="Logo 7"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo8.png"
+            alt="Logo 8"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo9.png"
+            alt="Logo 9"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+          <img
+            src="img/logo10.png"
+            alt="Logo 10"
+            style="max-width: 100%; height: auto; margin-bottom: 10px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div style="display: flex; margin-top: 20px">
+      <!-- First Section -->
+      <div style="flex: 2; padding: 10px; text-align: center">
+        <img
+          src="img/17.png"
+          alt="Logo"
+          style="max-width: 100%; height: auto"
+        />
+        <h3 style="color: #3902a1; margin-top: 10px">FOLLOW US</h3>
+        <div>
+          <img
+            src="img/facebook.png"
+            alt="Facebook"
+            style="max-width: 30px; height: auto"
+          />
+          <img
+            src="img/insta.png"
+            alt="Instagram"
+            style="max-width: 30px; height: auto"
+          />
+        </div>
+      </div>
+
+      <!-- Second Section -->
+      <div style="flex: 2; padding: 10px; text-align: start">
+        <h3 style="color: #3902a1; font-family: 'Poppins'; font-weight: bolder">
+          QUICK LINKS
+        </h3>
+        <div>
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500">Home</a
+          ><br />
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500"
+            >Our Story</a
+          ><br />
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500"
+            >Our Team</a
+          ><br />
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500"
+            >Creators</a
+          ><br />
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500"
+            >KO in Media</a
+          ><br />
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500">Blog</a
+          ><br />
+          <a href="#" style="color:black; 'Poppins'; font-weight: 500"
+            >Contact Us</a
+          ><br />
+        </div>
+      </div>
+
+      <div style="flex:4;display: flex; flex-direction: column">
+        <h3 style="color: #3902a1; font-family: 'Poppins'; font-weight: bolder">RECENT BLOGS</h3>
+        <div style="display:flex;">
+          <div>
+            <img src="img/21.jpg" style="width: 70%;" />
+          </div>
+          <div>
+            <h5 style="color: #3902a1; font-family: 'Poppins'; font-weight: bold">CREATOR AWARDS</h5>
+            <p style="font-family: 'Poppins'; font-weight: 500">
+              We represent some of the most sought after creators in the
+              entertainment
+            </p>
+            <button class="btn btn-primary">READ MORE</button>
+          </div>
+        </div>
+        <div style="display:flex">
+          <div>
+            <img src="img/21.jpg" style="width: 70%; " />
+          </div>
+          <div>
+            <h5 style="color: #3902a1; font-family: 'Poppins'; font-weight: bold">CREATOR COMMUNITY</h5>
+            <p style="font-family: 'Poppins'; font-weight: 500">
+              We represent some of the most sought after creators in the
+              entertainment
+            </p>
+            <button class="btn btn-primary">READ MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Section -->
+      <div style="flex: 2; padding: 10px">
+        <h3 style="color: #3902a1; font-family: 'Poppins'; font-weight: bolder">
+          GET IN TOUCH
+        </h3>
+        <div style="margin-bottom: 10px"></div>
+        <p style="font-family: 'Poppins'; font-weight: 500">
+          TEL<br />+91940303
+        </p>
+        <p style="font-family: 'Poppins'; font-weight: 500">
+          EMAIL<br />hello@knightowl.media
+        </p>
+        <p style="font-family: 'Poppins'; font-weight: 500">
+          ADDRESS<br />Golf Course Extn<br />Gurugram, Haryana
+        </p>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
